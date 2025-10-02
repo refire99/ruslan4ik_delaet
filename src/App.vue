@@ -1,14 +1,16 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/header.vue';
-import catalog_button from './components/catalog_button.vue';
+import catalog_button from './components/CatalogButton.vue';
+import search_input from './components/SearchInput.vue';
 </script>
 
 <template>
 
-  <HelloWorld msg="okak" />
+
   <Header />
-  <catalog_button/>
+  <catalog_button name="Каталог"/>
+  <search_input/>
 </template>
 
 <style scoped>
